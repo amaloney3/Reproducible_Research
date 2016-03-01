@@ -1,0 +1,68 @@
+Codebook for Tidy Dataset
+============================
+
+Measurements were obtained using the accelerometer and gyroscope features on a Samsung Galaxy SII smartphone.
+Triaxial observations (XYZ) were obtained at a constant rate of 50 Hz from each instrument, and are denoted with
+the words "Acceleration" and "Gyroscope."
+
+Acceleration signals were partitioned into body and gravity acceleration signals, and are denoted as such with
+"Body" and "Gravity."  Body acceleration and angular velocity were calculated in time to obtain "Jerk" signals.
+And the "Magnitude" of those signals were also calculated.
+
+Frequency calcluations were created from the fast Fourier transofrmation on some of the variables and
+are labeled with "Frequency."
+
+As noted in the accompanying README file, the average mean and average standard deviations of all of these
+observations were calculated to create the final dataset.
+
+
+
+subject                                         Test subjects numbered 1-30
+
+activity                                        Description of six activities measured by smartphone
+
+TimeBodyAcceleration(XYZ)                           
+
+TimeGravityAcceleration(XYZ)                    
+
+TimeBodyAccelerationJerk(XYZ)                  
+
+TimeBodyGyroscope(XYZ)                                
+
+TimeBodyGyroscopeJerk(XYZ)                     
+
+TimeBodyAccelerationMagnitude                
+
+TimeGravityAccelerationMagnitude          
+
+TimeBodyAccelerationJerkMagnitude          
+
+TimeBodyGyroscopeMagnitude	
+
+TimeBodyGyroscopeJerkMagnitude		
+
+FrequencyBodyAcceleration(XYZ)					
+
+FrequencyBodyAcceleration_Frequency(XYZ)
+	
+FrequencyBodyAccelerationJerk(XYZ)
+
+FrequencyBodyGyroscope(XYZ)				
+
+FrequencyBodyGyroscope_Freq(XYZ)		
+
+FrequencyBodyAccelerationMagnitude
+
+FrequencyBodyAccelerationMagnitude_Freq	
+
+FrequencyBodyBodyAccelerationJerkMagnitude	
+
+FrequencyBodyBodyAccelerationJerkMagnitude_Freq	
+
+FrequencyBodyBodyGyroscopeMagnitude		
+
+FrequencyBodyBodyGyroscopeMagnitude_Freq	
+
+FrequencyBodyBodyGyroscopeJerkMagnitude		
+
+FrequencyBodyBodyGyroscopeJerkMagnitude_Freq
